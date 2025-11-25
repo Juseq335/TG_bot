@@ -7,3 +7,6 @@ python 3.13
 pip install aiogram
 pip install sqlalchemy
 pip install aiosqlite
+
+for start:
+python main.py 
