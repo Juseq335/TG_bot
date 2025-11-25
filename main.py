@@ -18,4 +18,4 @@ if __name__ == '__main__':
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-        print('<your text>')
+        print('<your text>') # Changed the KeyboardInterrupt error to your text in the terminal
