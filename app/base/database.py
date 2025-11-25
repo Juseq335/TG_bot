@@ -6,7 +6,7 @@ from sqlalchemy import BigInteger
 engine = create_async_engine(url='sqlite+aiosqlite:///db.sqlite3')
 
 # Connecting to the database
-async_sesion = async_sessionmaker(engine)
+async_session = async_sessionmaker(engine)
 
 # Сreating a child class in relation to AsyncAttrs and DeclarativeBase
 class Base(AsyncAttrs, DeclarativeBase):
